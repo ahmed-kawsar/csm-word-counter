@@ -8,7 +8,7 @@ function WordCounter(){
         const data = e.target.value.split(' ')
         console.log(data)
 
-        if(data.length<=1500){
+        if(data.length<=15000){
             setVal(e.target.value)
             setWord(data.length)
             if(e.target.value == ''){
