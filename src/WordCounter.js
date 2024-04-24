@@ -21,7 +21,7 @@ function WordCounter(){
 
     return(
         <div>
-            <h1 className="title">csm word counter</h1>
+            <h1 className="title">CSM Word Counter</h1>
             <div className="title-box">
                 <h3>Letter count: {val.length}</h3>
                 <h3>Word count: {word}</h3>
